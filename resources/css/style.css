@@ -1,0 +1,25 @@
+/* General Styles */
+
+html {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+}
+
+
+/* Header section: logo, banner, nav */
+
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0.66rem 0.5rem;
+}
+
+header h2, img {
+  display: inline;
+}
+
+/* Products */
+/* Info: Location/Hours */
+/* Footer */
