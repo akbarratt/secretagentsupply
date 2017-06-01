@@ -25,21 +25,21 @@ h2 {
 header {
   background-color: black;
   color: white;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 
 .logo {
   padding: 0.66rem 0;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .logo h2, img {
-  display: inline-block;
   padding: 0 0.5rem;
 }
 
@@ -205,6 +205,51 @@ footer {
 
   .glasses {
     display: none;
+  }
+
+}
+
+@media only screen and (max-width: 470px) {
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 0.77rem;
+  }
+
+  .banner {
+    height: 15rem;
+  }
+
+  .bannerbox {
+    width: 100%;
+    background-color: black;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+  }
+
+  .prodbox {
+    width: 90%;
+  }
+
+  .watch {
+    display: none;
+  }
+
+  .infogrid {
+    flex-direction: column;
+  }
+
+  .infobox {
+    width: 90%;
+  }
+
+  footer {
+    text-align: center;
   }
 
 }
