@@ -191,6 +191,10 @@ footer {
 
 @media only screen and (max-width: 1024px) {
 
+  .container {
+    width: 100%;
+  }
+
   nav ul {
     display: none;
   }
@@ -201,6 +205,7 @@ footer {
 
   .prodbox {
     width: 47%;
+    margin: 0 auto;
   }
 
   .glasses {
@@ -234,6 +239,7 @@ footer {
 
   .prodbox {
     width: 90%;
+    margin: 0 auto;
   }
 
   .watch {
